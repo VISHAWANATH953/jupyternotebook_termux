@@ -32,7 +32,8 @@ cat > $bin <<- EOM
 #!/bin/bash
 . env/bin/acitvate
 EOM
-chmod +x start-jupyter.sh
+mv start-jupyter.sh /data/data/com.termux/files/home/start-jupyter.sh
+chmod +x /data/data/com.termux/files/home/start-jupyter.sh
 
 #Making some file so launch it.
 echo "$############START TO JUPYTER NOTEBOOK RUN ./start-jupyter.sh####"
@@ -41,5 +42,6 @@ echo "$##################WHEN run jupyter notebook#####################"
 echo "$###ALSO YOU CAN RUN MANY PYTHON FRAMEWORK IN THIS ENVIROMENT####"
 sleep 5
 
+cd /data/data/com.termux/files/home/
 
-. env/bin/acitvate && pip3 installl --upgrade pip && pip3 install jupyter
+. env/bin/activate && pip3 installl --upgrade pip && pip3 install jupyter
