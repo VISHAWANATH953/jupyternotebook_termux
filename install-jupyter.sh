@@ -42,6 +42,11 @@ echo "$##################WHEN run jupyter notebook#####################"
 echo "$###ALSO YOU CAN RUN MANY PYTHON FRAMEWORK IN THIS ENVIROMENT####"
 sleep 5
 
+
 cd /data/data/com.termux/files/home/
 
-. env/bin/activate && pip3 installl --upgrade pip && pip3 install jupyter
+rm -rf jupyternotebook_termux
+
+. env/bin/activate && pip3 install jupyter
+
+
