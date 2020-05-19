@@ -32,7 +32,7 @@ cat > $bin <<- EOM
 #!/bin/bash
 . env/bin/acitvate
 EOM
-mv start-jupyter.sh /data/data/com.termux/files/home/start-jupyter.sh
+cp start-jupyter.sh /data/data/com.termux/files/home/start-jupyter.sh
 chmod +x /data/data/com.termux/files/home/start-jupyter.sh
 
 #Making some file so launch it.
@@ -47,6 +47,6 @@ cd /data/data/com.termux/files/home/
 
 rm -rf jupyternotebook_termux
 
-. env/bin/activate && pip3 install jupyter
+. env/bin/activate
 
 
