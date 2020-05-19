@@ -23,9 +23,7 @@ echo "$#########ONLY PULL REQUEST AVALIBALE###################"
 sleep 5
 
 #Making some update && upgrade && installs && files to rady it for.
-apt update && apt upgrade -y && apt install python python-dev -y && pip3 install --upgrade pip && pip3 install vitualenv
-
-clear
+apt update && apt upgrade -y && apt install python -y && pip3 install --upgrade pip && pip3 install virtualenv && virtualenv env && clear
 
 bin=start-jupyter.sh
 echo "##############WRITING LANCH SCRIPT#####################"
@@ -34,7 +32,7 @@ cat > $bin <<- EOM
 #!/bin/bash
 . env/bin/acitvate
 EOM
-chomd +x start-jupyter.sh
+chmod +x start-jupyter.sh
 
 #Making some file so launch it.
 echo "$############START TO JUPYTER NOTEBOOK RUN ./start-jupyter.sh####"
@@ -43,7 +41,5 @@ echo "$##################WHEN run jupyter notebook#####################"
 echo "$###ALSO YOU CAN RUN MANY PYTHON FRAMEWORK IN THIS ENVIROMENT####"
 sleep 5
 
-
-virtualenv env
 
 . env/bin/acitvate && pip3 installl --upgrade pip && pip3 install jupyter
