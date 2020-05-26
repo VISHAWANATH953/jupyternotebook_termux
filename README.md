@@ -6,4 +6,10 @@ Jupyter notebook on termux without root also we can install django flask and man
 TO INSTALL IT ON OPEN TERMUX
 
  
-   git clone https://github.com/VISHAWANATH953/jupyternotebook_termux.git && cd jupyternotebook_termux && chmod +x install-jupyter.sh && ./install-jupyter.sh
+  wget https://raw.githubusercontent.com/VISHAWANATH953/jupyternotebook_termux/master/install-jupyter.sh && sh install-jupyter.sh
+  
+  to run it simple 
+  
+  ./start-ju.sh
+  
+  sh start-ju.sh
