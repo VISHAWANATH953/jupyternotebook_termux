@@ -1,6 +1,10 @@
 #!/data/data/com.termux/files/usr/bin/bash
 
+clear
+
 cd /data/data/com.termux/files/home/
+
+clear
 
 echo "#     # # ######## #      # ######## ####### ########"
 echo "#     # # ######## #      # #      # #              #"
