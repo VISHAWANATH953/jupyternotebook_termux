@@ -1,3 +1,5 @@
+special thanks to wmcb tech inspire me new also all things about linux stuff
+
 # jupyternotebook_termux
 Jupyter notebook on termux without root also we can install django flask and many more frameworks
 
