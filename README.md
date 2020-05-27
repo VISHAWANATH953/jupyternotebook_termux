@@ -10,7 +10,7 @@ TO INSTALL IT ON OPEN TERMUX
  
   wget https://raw.githubusercontent.com/VISHAWANATH953/jupyternotebook_termux/master/install-jupyter.sh && sh install-jupyter.sh
   
-  to run it simple 
+Then start jupyter notebook run it simple
   
   ./start-ju.sh
   
