@@ -33,6 +33,9 @@ cat > $bin <<- EOM
 
 jupyter notebook
 EOM
+
+clear
+
 chmod +x /data/data/com.termux/files/home/start-ju.sh
 
 #Making some file so launch it.
